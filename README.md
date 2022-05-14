@@ -16,7 +16,7 @@ Recommender systems are utilized in a variety of areas including movies, music, 
 Collaborative filering (CF) is based on the concept of "homophily" - similar users like similar things. It uses item preferences from other users to predict which item a particular user will like best. Collaborative filtering uses a user-item matrix to generate recommendations. This matrix is populated with values that indicate a given user's preference towards a given item. It's very unlikely that a user will have interacted with every item, so in most real-life cases, the user-item matrix is very sparse.
 
 
-<img src="images/utility-matrix.png" width="280px">
+<img src="Images/utility-matrix.png" width="280px">
 
 
 Collaborative filtering can be further divided into two categories: memory-based and model-based.
@@ -33,7 +33,7 @@ Content-based filtering generates recommendations based on user and item feature
 
 Content-based filtering handles the "cold start" problem because it is able to provide personalized recommendations for brand new users and features. 
 
-<img src="images/cb-filtering.png" width="550px">
+<img src="Images/cb-filtering.png" width="550px">
 
 
 ### How do we define a user's "preference" towards an item?
